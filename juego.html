@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./image/dado.png">
+</head>
+<body>
+<main>
+    <section class="section1">
+        <h1>Memory Game 🎲</h1>
+        <table>
+        
+            <tr>
+                <td><button id="0" onclick="destapar(0)">❓</button></td>
+                <td><button id="1" onclick="destapar(1)">❓</button></td>
+                <td><button id="2" onclick="destapar(2)">❓</button></td>
+                <td><button id="3" onclick="destapar(3)">❓</button></td>
+            </tr>
+            
+            <tr>
+                <td><button id="4" onclick="destapar(4)">❓</button></td>
+                <td><button id="5" onclick="destapar(5)">❓</button></td>
+                <td><button id="6" onclick="destapar(6)">❓</button></td>
+                <td><button id="7" onclick="destapar(7)">❓</button></td>
+            </tr>
+            
+            <tr>
+                <td><button id="8" onclick="destapar(8)">❓</button></td>
+                <td><button id="9" onclick="destapar(9)">❓</button></td>
+                <td><button id="10" onclick="destapar(10)">❓</button></td>
+                <td><button id="11" onclick="destapar(11)">❓</button></td>
+            </tr>
+            
+            <tr>
+                <td><button id="12" onclick="destapar(12)">❓</button></td>
+                <td><button id="13" onclick="destapar(13)">❓</button></td>
+                <td><button id="14" onclick="destapar(14)">❓</button></td>
+                <td><button id="15" onclick="destapar(15)">❓</button></td>
+            </tr>
+        
+        </table>
+    </section>
+    <section class="section2">
+        <h2 id="Hits" class="estadistica">Score: 0</h2>
+        <h2 id="Time" class="estadistica">Time: 30 s</h2>
+        <h2 id="movimientos" class="estadistica">Movements: 0</h2>
+
+    </section>
+</main>
+<footer>
+    <p>Game created by <a href="https://www.instagram.com/franco.battistonn/" target="_blank">Franco Battiston</a> </p>
+</footer>
+<script src="main.js"></script>
+</body>
+    </html>
